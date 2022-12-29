@@ -1,0 +1,409 @@
+.divClass1{
+  width: 100%;
+  /* position: relative; */
+ }
+ [alt="zomatoimg"]{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  color: white;
+ }
+ .ulDiv{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 800px;
+  margin-left: auto;
+  top: 20px;
+  color: white;
+  
+  
+ }
+ .ulChild{
+  flex: 2;
+  padding: 2px;
+  margin-right: 4px;
+  font-size: 20px;
+  
+}
+.ulChild:hover{
+  color: red;
+
+}
+
+ .ulDiv1{
+  list-style: none;
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 100px;
+  font-size: 20px;
+}
+.ulDiv1:hover{
+  color: blue;
+
+}
+
+.heading1{
+  position: absolute;
+  color: white;
+  top: 14%;
+  left: 40%;
+font-size: 70px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+
+}
+.heading2{
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 20%;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+
+}
+.mapsearch {
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 5px;
+}
+
+.mapsearch-item {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.mapsearch .mapsearch-item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid grey;
+  color: gray;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.mapsearch .mapsearch-item p i {
+  margin-left: 2px;
+  color: rgb(241, 17, 54);
+  padding-right: 20px;
+  padding-left: 15px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.mapsearch .mapsearch input {
+  border: 0;
+  margin: 0px;
+  border: none;
+  width: 100%;
+}
+
+.mapsearch .mapsearch-item:first-child {
+  /* color: rgb(241, 17, 54); */
+  width: 70%;
+}
+
+.mapsearch .mapsearch-item:last-child {
+  color: rgb(241, 17, 54);
+  width: 80%;
+}
+/*2*/
+.parentFlex{
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  border: 10px;
+  
+}
+.childFlex{
+  flex: 1;
+}
+.childFlex:hover{
+  transform: scale(1.10,1.04);
+  
+}
+[alt="img1"]{
+  height: 180px;
+  width: 400px;
+  border-radius: 20px;
+}
+/*3*/
+.parentsec{
+  /* margin: 20px; */
+  padding: 10px;
+  border: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+
+}
+.parentDiv{
+  display: flex;
+  /* margin-left: 40px; */
+}
+.childDiv{
+  flex: 4;
+  font-size: 20px;
+}
+.childDiv1{
+  flex: 1;
+  color: red;
+}
+.divImg{
+  display: flex;
+}
+.childImg{
+  flex: 1;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+[alt="image"]{
+  height: 300px;
+  width: 250px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* position: relative;
+  color: white;
+  text-align: center; */
+  /* background-color: rgba(255, 255, 255, 0.041); */
+  background-color: rgba(222, 184, 135, 0.103);
+}
+.para{
+  position: absolute;
+bottom: 1px;
+left: 40px;
+
+}
+/*4*/
+.tableClass{
+  padding: 10px;
+  border: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  
+}
+.tableDiv{
+  display: flex;
+  margin: 20px;
+}
+.childTable{
+  flex: 1;
+  border: 20px;
+  margin: 10px;
+}
+.table{
+  height: 100px;
+  width: 30px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+.table:hover{
+  /* transform: scale(1.00,1.00); */
+  transform: scale(0.96,0.96);
+}
+/*5*/
+.phoneDiv{
+  display: flex;
+  margin-top: 90px;
+  background-color: rgba(240, 128, 128, 0.39);
+  position: relative;
+
+}
+.phonchild1{
+  flex:1;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 0%;
+
+}
+.phonechild2{
+  flex: 2;
+  padding: 20px;
+  margin: 30px;
+}
+[alt="phone"]{
+  height: 450px;
+  width: 380px;
+  margin-top: 15px;
+  margin-left: 150px;
+  
+}
+.formDiv{
+  position: absolute;
+  left: 620px;
+  top: 180px;
+}
+button{
+  background-color: rgba(255, 0, 0, 0.932);
+  
+  color: white;
+  padding: 5px;
+}
+.button{
+  border-radius: 8px;
+
+}
+.text{
+  padding: 15px;
+}
+.box{
+  border-radius: 8px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 55px;
+  margin-top: 1px;
+  margin-left: 8px;
+
+
+}
+/*6*/
+.divHorizontal{
+  padding: 10px;
+  border: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+}
+.horizontal{
+  height: 80px;
+  width: 96%;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.384);
+  border-radius: 20px;
+  margin-bottom: 8px;
+
+
+}
+.p1{
+  padding: 20px;
+}
+/*7*/
+ .footerDiv{
+  /* display: flex; */
+  margin-top: 90px;
+  position: relative;
+  
+ }
+ 
+ .footer1{
+  display: flex;
+  /* position: relative; */
+  margin-left: 10%;
+  margin-top: 2%;
+ }
+ .footerchild1{
+  flex: 3;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+ }
+ .footerchild2{
+  flex: 1;
+  left: 70%;
+  position: absolute;
+  top: 30px;
+ }
+ .dropdown{
+  margin-right: 20px;
+ }
+ .footerchild3{
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 10%;
+ }
+ .footer1{
+  /* position: absolute; */
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-top: 3px;
+  margin-left: 2px;
+  
+ }
+ .footer2{
+  /* left: 200px;
+  position: absolute; */
+  margin-right: 10px;
+  padding-right: 30px;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+
+ }
+ .footer3{
+  margin-right: 10px;
+  padding-right: 40px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.footer4{
+  margin-right: 10px;
+  padding-right: 30px;
+  margin-left: 10px;
+  padding-left: 10px;
+
+}
+.footer5{
+  margin-right: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+
+}
+ul{
+  list-style: none;
+}
+.favicon{
+  padding: 4px;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  /* background-color: rgba(165, 42, 42, 0.329); */
+}
+.box1{
+  border-radius: 8px;
+  padding: 1px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 55px;
+  margin-top: 1px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+
+
+}
+.lastDiv{
+  position: absolute;
+  top: 300px;
+  left: 10%;
+  font-size: medium;
+  margin-right: 60px;
+  margin-left: 20px;
+  color: gray;
+
+}
+
+
+
+
